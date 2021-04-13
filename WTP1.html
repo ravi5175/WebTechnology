@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <TITLE>WT Experiment 1</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#646464" style="padding:0%;margin:0%">
+    <DIV style="margin:auto; max-width: 50%; border-width: 4px;border-style:solid;border-color: gray;padding: 120px;background-color: white">
+        <DIV id="header">
+            <CENTER>
+                <B><H3>Experiment 1 Web Technologies</H3></B>
+            </CENTER>
+        </DIV>
+        <BR>
+        <BR>
+        <DIV id="main">
+            <B><U><H4 style="line-height:0">AIM</H4></U></B>
+            <P style="line-height:0">To Study Web Debugger</P>
+            <BR>
+            <B><H4 style="line-height:0"><U>REQUIREMENTS</U></H4></B>
+            <P style="line-height:0">A Web Browser (Google Chrome)</P>
+            <BR>
+            <B><H4 style="line-height:0"><U>THEORY</U></H4></B>
+            <P>Debugging is the process of detecting and removing existing and potential errors (also called ‘bugs’) in a software code that can cause it to behave unexpectedly or crash.
+            </P>
+            <P>A debugger or debugging tool is a computer program used to test and debug other programs (the "target" program). The main use of a debugger is to run the target program under controlled conditions that permit the programmer to track its operations
+                in progress and monitor changes in computer resources (most often memory areas used by the target program or the computer's operating system) that may indicate malfunctioning code. Typical debugging facilities include the ability to run
+                or halt the target program at specific points, display the contents of memory, CPU registers or storage devices (such as disk drives), and modify memory or register contents in order to enter selected test data that might be a cause of
+                faulty program execution.
+            </P>
+            <P>
+                Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android where it is the default browser built into the OS.The browser is also the main
+                component of Chrome OS, where it serves as the platform for web applications.
+            </P>
+            <P>
+                Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help us edit pages on-the-fly and diagnose problems quickly, which ultimately helps us build better web applications, faster.
+            </P>
+            <P>
+                Starting Chrome Devtools.
+                <UL>
+                    <LI>Open a new Tab for the web page of your choice.</LI>
+                    <LI>Take cursor on the element of your choice.</LI>
+                    <LI>Right click on the element and select inspect element</LI>
+                </UL>
+            </P>
+
+            <P>Other way include shortcut Ctrl+Shift+I to open inspector on chrome dev tools</P>
+
+            <IMG SRC="Images/Fig1.1.png" style="width: 100%; height: 100%;">
+            <P ALIGN="CENTER"> Fig 1.1 : Chrome devtools on the right side.</P>
+
+            <H4>
+                <B>Features of Web Debugger</B>
+            </H4>
+            <OL>
+                <LI>
+                    <H5>
+                        <B>Edit HTML and CSS of the Page</B>
+                    </H5>
+                    <P>You can inspect a DOM node, edit HTML and CSS on the fly and preview the changes by selecting any element, choosing a DOM element within the panel, and double clicking on the opening tag to edit it. The closing tags are automatically
+                        updated for you. Any changes will show up in your browser as if the change had actually been made to the source code.
+                    </P>
+                </LI>
+                <IMG SRC="Images/Fig1.2.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.2 : Website with Unacademy ad on its home page.</P>
+                <IMG SRC="Images/Fig1.3.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.3 : Website with Unacademy ad removed its home page.</P>
+                Here i hide the element that displays the google adsense
+
+                <LI>
+                    <H5>
+                        <B>Using the Console Panel.</B>
+                    </H5>
+                    <UL>
+                        <LI>Debugging JavaScript: A common method for debugging a problem is to insert a lot of console.log() statements into the code, in order to inspect values as the script executes. It will display the message written inside console.log()
+                            at the console panel. In addition to viewing console.log() messages. </LI>
+                        <LI>Running JavaScript : You can run JavaScript in the Console to interact with the page that you're inspecting.</LI>
+                    </UL>
+                </LI>
+                <IMG SRC="Images/Fig1.4.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.4 : Console View (www.google.com).</P>
+                <IMG SRC="Images/Fig1.5.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.5 : Running JavaScript to search for element by class “gN089b” and changing value attribute to “Console”.</P>
+                <IMG SRC="Images/Fig1.6.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.6 : Output for JavaScript used in Console.</P>
+                Here i changed the value attribute of “Search” button to “Console” using javascript in devtools console.</P>
+
+                <LI>
+                    <H5>
+                        <B>Simulate Mobile Devices with Device Mode in Chrome DevTools</B>
+                    </H5>
+                    <P>Use Device Mode to approximate how your page looks and performs on a mobile device.
+                    </P>
+                    <P>Device Mode is the name for the loose collection of features in Chrome DevTools that help you simulate mobile devices. These features include:</P>
+                    <UL>
+                        <LI>Simulating a mobile viewport : Set the dimension, device type, add custom mobile.</LI>
+                        <LI>Throttling the network : Mid-tier mobile simulates fast 3G and throttles your CPU so that it is 4 times slower than normal. Low-end mobile simulates slow 3G and throttles your CPU 6 times slower than normal. Keep in mind that the
+                            throttling is relative to the normal capability of your laptop or desktop.</LI>
+                        <LI>Throttling the CPU : To throttle the CPU only and not the network, go to the Performance panel, click Capture Settings, and then select 4x slowdown or 6x slowdown from the CPU list.</LI>
+                        <LI>Simulating geolocation</LI>
+                        <LI>Setting orientation</LI>
+                    </UL>
+                </LI>
+                <IMG SRC="Images/Fig1.7.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.7 : Debugging website UI in Iphone X screen resolution.</P>
+
+                <LI>
+                    <H5>
+                        <B>Optimize Website Speed.</B>
+                    </H5>
+                    <P>Whenever you set out to improve a site's load performance, always start with an audit. The audit has 2 important functions:</P>
+                    <UL>
+                        <LI>It creates a baseline for you to measure subsequent changes against.(The baseline is a record of how the site performed before you made any performance improvements.)</LI>
+                        <LI>It gives you actionable tips on what changes will have the most impact.</LI>
+                    </UL>
+                </LI>
+                <IMG SRC="Images/Fig1.8.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.8 : The Audits panel's report the site's performance on Moto G4 device.</P>
+
+                <LI>
+                    <H5>
+                        <B>Inspect Network Activity</B>
+                    </H5>
+                    <P>In general, use the Network panel when you need to make sure that resources are being downloaded or uploaded as expected. The most common use cases for the Network panel are:</P>
+                    <UL>
+                        <LI>Making sure that resources are actually being uploaded or downloaded at all</LI>
+                        <LI>Inspecting the properties of an individual resource, such as its HTTP headers, content, size, and so on.</LI>
+                    </UL>
+                    <P>To view the network activity that a page causes:</P>
+                    <P> Reload the page. The Network panel logs all network activity in the Network Log.</P>
+                </LI>
+                <IMG SRC="Images/Fig1.9.png" style="width: 100%; height: 100%;">
+                <P ALIGN="CENTER"> Fig 1.9 : Network stats, Images, www.freshlybuilt.com.</P>
+                Here we run Network diagnostics for images being loaded on the freshly built home page.
+
+            </OL>
+            <H4>
+                <B><U>CONCLUSION</U></B>
+            </H4>
+            Web debugger is an import tool for web developers. It can increase productivity significantly in development of websites or web applications.
+
+        </DIV>
+    </DIV>
+    <FOOTER style="background-color: #FFFFFF; width: 102%; position: fixed;bottom: 0;border-width: 4px;border-style:solid;border-color:#8b6be4 ;">
+        <P style="text-align: center;">
+            <B> Name : Ravi Pawar - Roll No. : 03620902718 - Sem : 6th - Web Technologies</B>
+        </P>
+
+    </FOOTER>
+</BODY>
+
+</HTML>
